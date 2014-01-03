@@ -1,0 +1,36 @@
+/* layout */
+
+body{
+  width: 1014px;
+  padding: 5px;
+}
+
+body.one-sidebar #content {
+  width: 806px;
+  float: left;
+}
+
+.sidebar {
+  display: block;
+  width: 168px;
+  float: left;
+  margin: 0 0 0 40px;
+}
+
+.view-blog .view-row {
+  width: 48%;
+  float: left;
+  border-top: 1px solid #000;
+}
+
+.view-blog .views-row-odd {
+  margin: 0 4% 0 0;
+}
+
+.view-blog .views-row-1, .view-blog .views-row-2 {
+  border-top: 0;
+}
+
+.node {
+  border-bottom: 0;
+}

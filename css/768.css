@@ -1,0 +1,48 @@
+/* layout */
+
+body {
+  width: 758px;
+  padding: 5px;
+}
+
+body.one-sidebar #content {
+  width: 580px;
+  float: left;
+}
+
+.sidebar {
+  display: block;
+  width: 168px;
+  float: left;
+  margin: 0 0 0 10px;
+}
+
+p {
+  margin: 0 0 10px 0;
+}
+
+/* type */
+
+body {
+  line-height: 20px;
+}
+
+#site-name {
+  font-size: 50px;
+  line-height: 56px;
+}
+
+h2, #page-title {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.submitted {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.links {
+  font-size: 12px;
+  line-height: 18px;
+}

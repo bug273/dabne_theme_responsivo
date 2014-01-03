@@ -1,0 +1,33 @@
+name = Dabne
+description = Tema responsivo para Drupal7 hecho por <a href="http://dabne.net">Dabne</a> con layouts basados en Omega.
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; Regions
+regions[search] = Search
+regions[branding] = Branding
+regions[header] = Header
+regions[navigation] = Navigation
+regions[main_menu] = Main menu
+regions[help] = Help
+regions[highlighted] = Highlighted
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer] = Footer
+
+; Estilos
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/main.css
+stylesheets[(min-width: 480px)][] = css/480.css
+stylesheets[(min-width: 768px)][] = css/768.css
+stylesheets[(min-width: 1024px)][] = css/1024.css
+stylesheets[(min-width: 1280px)][] = css/1280.css
+
+; Plugins
+; Panels layouts. Aqui se ponen los layouts dentro del folder 'layout'
+plugins[panels][layouts] = layouts
+
+
+scripts[] sparkle.js

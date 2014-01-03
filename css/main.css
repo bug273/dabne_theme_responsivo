@@ -1,0 +1,109 @@
+/* Layout */
+
+body {
+  width: 310px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.node {
+  margin: 10px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #000;
+}
+
+.views-row-last .node {
+  border-bottom: 0px;
+}
+
+.sidebar {
+  display: none;
+}
+
+p {
+  margin: 0 0 5px 0;
+}
+
+.field-type-taxonomy-term-reference .field-item {
+  float: left;
+  font-size: 10px;
+  line-height: 16px;
+  margin: 0 5px 0 0;
+}
+
+.field-name-body {
+  clear: both;
+}
+
+.comment {
+  border-bottom: 1px solid #000;
+  margin: 0 0 5px 0;
+  padding: 0 0 5px 0;
+}
+
+/* Type */
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #223;
+}
+
+#site-name {
+  font-size: 40px;
+  line-height: 44px;
+}
+
+h2, #page-title {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.submitted {
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.links {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#footer {
+  font-size: 10px;
+  color: #666;
+}
+
+/* Links */
+
+a, a:active, a:visited {
+  text-decoration: none;
+  color: #009;
+}
+
+#footer a, #footer a:active, #footer a:visited {
+  text-decoration: none;
+  color: #99f;
+}
+
+/*  Core Overrides */
+
+ul.menu h2 {
+  display: inline;
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  background-color: red; 
+}
+
+ul.inline li.first {
+  padding: 0 0.5em 0 0;
+}
+
+#breadcrum {
+  display: none;
+}
+
+
+
