@@ -20,14 +20,31 @@
             <?php if ($logo): ?>
               <img src="<?php print $logo ?>" alt="<?php print ($site_name || $site_slogan) ?>" title="<?php print ($site_name || $site_slogan) ?>" id="logo" />
             <?php endif; ?>
-            <?php print $site_name ?>ddddddddddddddddddddd
+            <?php print $site_name ?>
             </a></h1>
         <?php endif; ?>
         <?php endif; ?>
         </div>
 
+        <?php if ($tabs && ($tabs['#primary'] || $tabs['#secondary'])): ?>
+          <div class="tabs">
+            <?php print render($tabs); ?>
+          </div>
+        <?php endif; ?>
+
         <?php print render($page['branding']); ?>
         <?php print render($page['header']); ?>
+        <?php print render($page['main_menu']); ?>
+          <?php print theme('links__system_main_menu', array(
+            'links' => $main_menu,
+            'attributes' => array(
+              'id' => 'main-menu',
+              'class' => array(
+                'links', 'inline', 'clearfix',
+              ),
+            ),
+           
+          )); ?>
         <?php print render($page['navigation']); ?>
 
       </div> <!-- /#header -->
@@ -81,5 +98,6 @@
     </div> <!-- /#container -->
   </div> <!-- /#wrapper -->
   <footer id="footer">
+  <p>Tema creado por <a href="http://dabne.net">Dabne</a></p>
     <?php print render($page['footer']); ?>
   </footer>
